@@ -4,3 +4,13 @@
 
 [deploy]
   restartPolicyType = "always"
+
+[deploy.ports]
+  [deploy.ports.3000]
+    protocol = "tcp"
+  [deploy.ports.54321]
+    protocol = "tcp"
+  [deploy.ports.443]
+    protocol = "tcp"
+  [deploy.ports.80]
+    protocol = "tcp"
